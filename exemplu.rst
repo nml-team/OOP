@@ -39,6 +39,7 @@ a fost "inlocuita" cu cea de metoda. Asadar, o metoda este o functie care se afl
 Exemplu:
 
 public class Test {
+
     public void printText {
         System.out.println("Printeaza acest text"); // Echivalentul a "cout" din C++ 
  
@@ -125,5 +126,3 @@ Reguli de sintaxa si coding style in Java:
 - Numele metodei incepe cu literea mica iar daca este format din mai multe cuvinte restul incep cu litera mare
 - Variabilele respecta aceleasi reguli ca metodele
 - Numele constantelor se scrie cu majuscule
-
-Meme: http://imgur.com/x9GKICC
