@@ -39,12 +39,9 @@ a fost "inlocuita" cu cea de metoda. Asadar, o metoda este o functie care se afl
 Exemplu:
 
 public class Test {
-
-    public void printText {
+    public void printText() {
         System.out.println("Printeaza acest text"); // Echivalentul a "cout" din C++ 
- 
-   }
-
+    }
 }
 
 Aici printText este o metoda deoarece se afla in interiorul clasei Test
@@ -78,10 +75,8 @@ public class Test {
     private int x;
     
     public void printX(int x) {
-
          System.out.println(x); // afiseaza pe "x" parametrul metodei printX 
          System.out.println(this->x); // afiseaza pe "x" dinauntrul clasei
-    
     }
 
 }
